@@ -3,4 +3,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+/* header */
+.h-container {
+    height: 50px;
+    line-height: 50px;
+    margin: 5px 10px;  
+}
+
+.logoimg {
+    vertical-align: middle;
+}
+
+.logotext {
+    font-size: 35px;
+    font-weight: 750;
+    vertical-align: middle;
+}
+
