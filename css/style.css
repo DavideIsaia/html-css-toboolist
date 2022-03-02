@@ -64,8 +64,7 @@ button {
     border: 2px solid lightgrey;
 }
 
-/* nested list section */
-
+/*list section */
 ul {
     list-style: none;
 }
@@ -88,26 +87,28 @@ li {
     content:"\23F7"; 
 }
 
+/* nested list style */
+.circle:before {
+    border-radius: 50%;
+    margin: 0 10px 10px 5px;
+    padding: 2px;
+    text-align: center;
+    line-height: 15px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+
 .check:before {
     content:"\2713";
     color: lightgreen;
     border: 1px solid lightgreen;
-    border-radius: 50%;
-    margin: 0 10px 0 5px;
-    padding: 2px;
-    text-align: center;
-    line-height: 25px;
 }
 
 .cross:before {
     content:"\2715";
     color: lightcoral;
     border: 1px solid lightcoral;
-    border-radius: 50%;
-    margin: 0 10px 0 5px;
-    padding: 2px;
-    text-align: center;
-    line-height: 25px;
 }
 
 /* labels */
